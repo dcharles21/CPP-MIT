@@ -258,7 +258,7 @@ Triangle::Triangle(PointArray arr, int size) : Polygon(arr, size)
 double Triangle::distance(Point p1, Point p2) 
 {
     double D;
-    D = sqrt(pow((p2.getX() - p1.getX()), 2) + pow( (p2.getY() - p1.getY()), 2));
+    D = sqrt(pow((p2.getX() - p1.getX()), 2) + pow((p2.getY() - p1.getY()), 2));
     return D;
 }
 
